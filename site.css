@@ -1,0 +1,38 @@
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background: black;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content a .linkedin {
+    font-size: 4em;
+    display: block;
+    color: white;
+}
+
+.content a .github {
+    font-size: 4em;
+    display: block;
+    color: white;
+}
+
+.content a:hover .linkedin,
+.content a:hover .github {
+    color: orangered;
+}
