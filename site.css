@@ -1,19 +1,24 @@
 body {
-    font-family: Calibri, Helvetica, sans-serif;
+    font-family: Courier, serif;
     background: black;
     color: white;
 }
 
 .content {
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+}
+
+.content h1 {
+    margin: 2rem 0;
+    font-size: 1.5rem;
 }
 
 .content a {
