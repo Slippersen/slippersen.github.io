@@ -25,12 +25,7 @@ body {
     text-decoration: none;
 }
 
-.content a .linkedin {
-    font-size: 4em;
-    display: block;
-    color: white;
-}
-
+.content a .linkedin,
 .content a .github {
     font-size: 4em;
     display: block;
