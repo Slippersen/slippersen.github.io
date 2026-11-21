@@ -33,6 +33,8 @@ body {
 }
 
 .content a:hover .linkedin,
-.content a:hover .github {
+.content a:hover .github,
+.content a:focus-visible .linkedin,
+.content a:focus-visible .github {
     color: orangered;
 }
